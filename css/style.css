@@ -1,0 +1,28 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+}
+body{
+width: 100%;
+height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/bg-1.jpg) center/cover;
+}
+#loader{
+position: fixed;
+width: 100%;
+height: 100vh;
+z-index: 1;
+overflow: visible;
+background: #000 url(../img/preloader.gif) no-repeat center center;
+}
+h1{
+ text-transform: uppercase;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: #fff;
+ font-size: 50px;
+}
